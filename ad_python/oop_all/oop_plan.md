@@ -33,14 +33,14 @@ Task: Create an Animal class with multiple subclasses like Dog, Cat, using polym
 
 Resource: GeeksforGeeks - Polymorphism
 
-## Day 5: Abstract Base Classes & Interfaces
+## ✅ Day 5: Abstract Base Classes & Interfaces
 Topics: abc module, abstract methods
 
 Task: Design a Shape class with abstract methods area() and perimeter().
 
 Resource: Real Python - Abstract Base Classes
 
-## Day 6: Static Methods, Class Methods, Operator Overloading
+## ✅ Day 6: Static Methods, Class Methods, Operator Overloading
 Topics: @staticmethod, @classmethod, __add__, __lt__, etc.
 
 Task: Create a Point class and overload math operators; add class-wide statistics.

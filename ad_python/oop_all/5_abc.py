@@ -225,7 +225,7 @@ class Dog(Animal):
 
 
 
-
+print(Dog.kingdom())
 
 
 
