@@ -7,14 +7,14 @@
 use dummydb;
 
 
-SELECT 
-    distinct e1.first_name AS employee_name,
+select 
+    distinct e1.first_name as employee_name,
     e1.manager_id
-FROM 
+from 
     employees e1
-JOIN 
+join 
     employees e2 ON e1.manager_id = e2.manager_id
-WHERE 
+where 
     e1.employee_id != e2.employee_id
 order by e1.manager_id ;
 
